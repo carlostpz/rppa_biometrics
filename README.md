@@ -3,11 +3,13 @@ Repository with R and C++ routines used in the paper:
 
 "A Bayesian random partition model for sequential refinement and coagulation"
 
-(Include link to Biometrics website)
+(Include link to the paper from Biometrics website)
 
 All functions are located in the root directory. 
+
 Directory ./simulation contains the results of MCMC algorithm under multiple values of kappa1 and kappa2. 
-Directories ./simulation/true_ab contain the results of estimation and simulated data with true values of kappa1 and kappa2 fixed as a and b, respectively.
+
+Directories ./simulation/true_ab contain the results of estimation and simulated data with true values of kappa1 and kappa2 fixed as a and b, respectively (only truth_35 is uploaded here).
 
 - mcmc_rppa.R : Main function. Use source("./your_path_to_mcmc_rppa.R_file/mcmc_rppa.R") in order to load the function in your R session
 - choose_cluster.cpp : Auxiliary function for cluster membership estimation a posteriori
