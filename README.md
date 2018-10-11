@@ -9,5 +9,7 @@ All functions are located in the root directory.
 Directory ./simulation contains the results of MCMC algorithm under multiple values of kappa1 and kappa2. 
 Directories ./simulation/true_ab contain the results of estimation and simulated data with true values of kappa1 and kappa2 fixed as a and b, respectively.
 
-- Main function: mcmc_rppa.R 
-- Auxiliary function for cluster membership estimation a posteriori: choose_cluster.cpp
+- mcmc_rppa.R : Main function. Use source("./your_path_to_mcmc_rppa.R_file/mcmc_rppa.R") in order to load the function in your R session
+- choose_cluster.cpp : Auxiliary function for cluster membership estimation a posteriori
+- run_scenario_2.R : runs multiple mcmc chains with the objective of choosing kappa1 and kappa2
+- simulation_35.R : simulates data in section silmulation1.a of the paper (underlying truth: kappa1 = 3 kappa2 = 5). This file also runs multiple mcmc chains for choice of kappa1 and kappa2.
