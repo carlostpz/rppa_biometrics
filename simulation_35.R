@@ -236,15 +236,6 @@ calc_dic = function( chain, y, init_iter, end_iter){
   
 }
 
-
-bic_vec = rep(0, 21)
-aic_vec = rep(0, 21)
-dic_vec = rep(0, 21)
-waic_vec = rep(0, 21)
-lpml_vec = rep(0, 21)
-ind = 1
-
-
 cl <- makeCluster(4)
 registerDoParallel(cl)
 
