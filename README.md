@@ -15,3 +15,4 @@ Directories ./simulation/true_ab contain the results of estimation and simulated
 - choose_cluster.cpp : Auxiliary function for cluster membership estimation a posteriori
 - run_scenario_2.R : runs multiple mcmc chains with the objective of choosing kappa1 and kappa2
 - simulation_35.R : simulates data in section silmulation1.a of the paper (underlying truth: kappa1 = 3 kappa2 = 5). This file also runs multiple mcmc chains for choice of kappa1 and kappa2.
+- GSK 2 PI3K AKT MEK inhib#32.xls: real dataset. Each sheet correspond to a different cell line
