@@ -3,7 +3,9 @@ Repository with R and C++ routines used in the paper:
 
 "A Bayesian random partition model for sequential refinement and coagulation"
 
-available at https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13047
+available at 
+
+https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13047
 
 All functions are located in the root directory. 
 
